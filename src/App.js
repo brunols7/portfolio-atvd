@@ -1,4 +1,7 @@
 import uberi from './assets/uberizacao.jpg';
+import hardware from './assets/hardware.jpg';
+import cisco from './assets/cisco.png';
+import nightflix from './assets/nightflix.png';
 import feira from './assets/feiraciencia.JPG'
 import teodolito from './assets/teodolito.jpg';
 import sabao from './assets/sabao.jpg';
@@ -44,7 +47,7 @@ function App() {
           <a href="#cn">Natureza</a>
           <a href="#math">Math</a>
           <a href="#ling">Linguagens</a>
-          <a href="#">TI</a>
+          <a href="#ti">TI</a>
         </nav>
       </header>
       <section className="home" id="home">
@@ -130,7 +133,7 @@ Foi incrível aprender geometria na aula de matemática, pois reacendeu minha pa
       </section>
       <section className="about" id="ling">
         <div className="general-text">
-        <h2>Linguagens</h2>
+          <h2>Linguagens</h2>
           <h4>Vídeo Arte</h4>
           <p>A atividade <span>"Vídeo Arte"</span> foi uma das melhores que já fiz e participei, foi uma experiência muito boa para eu me desenvolver com minha critividade com o tema "NO SENSE".</p>
           <h4>Arte de Rua</h4>
@@ -142,6 +145,22 @@ Foi incrível aprender geometria na aula de matemática, pois reacendeu minha pa
           <img src={videoart}/>
           <img src={sdance}/>
           <img src={grafit}/>
+        </div>
+      </section>
+      <section className="about" id="ti">
+      <div className="general-text">
+        <h2>TI</h2>
+        <h4>Roteamento</h4>
+        <p>Essa atividade foi muito difícil porém foi muito legal a experiência. Tivemos que medir toda a área da P1 e da biblioteca, planejar um plano de internet, roteadores e todo plano de cabeamento para ter internet em toda região.</p>
+        <h4>Montagem e Conserto de Computadores</h4>
+        <p>Nessa atividade nós aprendemos a montar e desmontar computadores, realizar troca de peças, identificar erros e como consertar, limpeza e etc. Na minha opinião foi a melhor atividade que já tive, pois eu aprendi muita coisa principalmente na prática e agora não preciso mais levar meu computador no técnico!</p>
+        <h4>Aplicação com Banco de Dados</h4>
+        <p>Nessa atividade, fiz um sistema de streaming baseado na Netflix. Nele você podia consultar o catálogo de filmes e séries, podendo filtrar entre as séries e também podia adicionar ou remover a mídia do catálogo. Utilizei Python para fazer tudo e o SQLite como banco de dados.</p>
+      </div>
+      <div class="general-img">
+          <img src={cisco}/>
+          <img src={hardware}/>
+          <img src={nightflix}/>
         </div>
       </section>
     </div>
