@@ -1,5 +1,7 @@
 import uberi from './assets/uberizacao.jpg';
 import hardware from './assets/hardware.jpg';
+import automa from './assets/automacao.jpg';
+import automati from './assets/automat.jpg';
 import cisco from './assets/cisco.png';
 import nightflix from './assets/nightflix.png';
 import feira from './assets/feiraciencia.JPG'
@@ -7,6 +9,16 @@ import teodolito from './assets/teodolito.jpg';
 import sabao from './assets/sabao.jpg';
 import polusom from './assets/polusonora.jpg';
 import estacoes from './assets/estacoes.jpg';
+import metav from './assets/meta.jpg';
+import meta from './assets/meta1.png';
+import ra from './assets/ra.jpg';
+import ra1 from './assets/ra1.jpg';
+import ia from './assets/ia.jpeg';
+import ia1 from './assets/ia1.png';
+import ia2 from './assets/ia2.jpeg';
+import ra2 from './assets/ra2.jpg';
+import ml from './assets/ml1.jpeg';
+import ml1 from './assets/ml2.png';
 import videoart from './assets/videoart.png';
 import ucrania from './assets/ucran.jpg'
 import profile from './assets/profileimg2.png';
@@ -48,6 +60,7 @@ function App() {
           <a href="#math">Math</a>
           <a href="#ling">Linguagens</a>
           <a href="#ti">TI</a>
+          <a href="#tec">Tecnologias</a>
         </nav>
       </header>
       <section className="home" id="home">
@@ -161,6 +174,81 @@ Foi incrível aprender geometria na aula de matemática, pois reacendeu minha pa
           <img src={cisco}/>
           <img src={hardware}/>
           <img src={nightflix}/>
+        </div>
+      </section>
+      <section className="about" id="tec">
+        <div className="general-text">
+          <h2>Automação</h2>
+          <h4>O que é?</h4>
+          <p>É o uso de sistemas de controle e de tecnologias da informação para reduzir a necessidade de trabalho humano para a produção de equipamentos e serviços.</p>
+          <h4>Objetivo</h4>
+          <p>O principal objetivo da automação é melhorar os resultados e garantir uma maior produtividade no geral.</p>
+        </div>
+        <div className='general-img'>
+          <img src={automa}/>
+          <img src={automati}/>
+        </div>
+      </section>
+      <section className="about" id="meta">
+        <div className="general-text">
+          <h2>MetaVerso</h2>
+          <h4>O que é?</h4>
+          <p>É um universo virtual onde as pessoas podem interagir entre si por meio de avatares personalizados.</p>
+          <h4>Objetivo</h4>
+          <p>O objetivo do metaverso é possibilitar que o universo físico seja complementado pelo mundo virtual.</p>
+          <h4>MetaVerso no Mundo Real</h4>
+          <p>Irá ampliar a imersão no trabalho remoto, mudar a forma como interagimos e as pessoas vão poder ter qualquer aparência que elas queiram, trazendo inclusão para muitas pessoas.</p>
+        </div>
+        <div className='general-img'>
+          <img src={meta}/>
+          <img src={metav}/>
+        </div>
+      </section>
+      <section className="about" id="rv">
+        <div className="general-text">
+          <h2>Realidade Aumentada</h2>
+          <h4>O que é?</h4>
+          <p>É uma tecnologia que permite sobrepor elementos virtuais à nossa visão da realidade.</p>
+          <h4>Objetivo</h4>
+          <p>O objetivo da Realidade Aumentada é ver objetos virtuais no mundo real e construir uma experiência em que o físico e o digital não tenham distinção.</p>
+          <h4>Benefício Didático</h4>
+          <p>A Realidade Aumentada fornece assistência para as aulas ao criar experiências de aprendizado imersivas, coletivas e compartilhadas.</p>
+        </div>
+        <div className='general-img'>
+          <img src={ra}/>
+          <img src={ra1}/>
+          <img src={ra2}/>
+        </div>
+      </section>
+      <section className="about" id="ia">
+        <div className="general-text">
+          <h2>Inteligência Artificial</h2>
+          <h4>O que é?</h4>
+          <p>A inteligência artificial é um campo da ciência preocupado com a criação de computadores e máquinas que podem raciocinar, aprender e atuar de maneira que normalmente exigiria inteligência humana ou que envolvia dados com escala maior que as pessoas podem analisar.</p>
+          <h4>Benefícios</h4>
+          <p>Permitem que computadores sejam integrados a diferentes partes do nosso dia a dia, automatizando a rotina e executando atividades com agilidade e segurança.</p>
+          <h4>Medos</h4>
+          <p>A preocupação de muitas pessoas a respeito da inteligência artificial reside no fenômeno chamado de 'singularidade'. Esse conceito se refere ao momento em que as IAs estarão tão desenvolvidas a ponto de superarem os próprios seres humanos. E também muitos tem medo de perderem seus empregos e serem substituídos por computadores e robôs.</p>
+        </div>
+        <div className='general-img'>
+          <img src={ia}/>
+          <img src={ia2}/>
+          <img src={ia1}/>
+        </div>
+      </section>
+      <section className="about" id="ml">
+        <div className="general-text">
+          <h2>Machine Learning</h2>
+          <h4>O que é?</h4>
+          <p>Machine Learning é uma disciplina da área da Inteligência Artificial que, por meio de algoritmos, dá aos computadores a capacidade de identificar padrões em dados massivos e fazer previsões (análise preditiva).</p>
+          <h4>Como o Machine Learning Aprende?</h4>
+          <p>Machine Learning é basicamente possibilitar que sistemas possam aprender a tomar decisões a partir de certos algoritmos que fazem análise de dados</p>
+          <h4>Onde é Usado?</h4>
+          <p>É usado no reconhecimento de fala, a identificação de imagens, o reconhecimento facial ou de expressões faciais, entre outros.</p>
+        </div>
+        <div className='general-img'>
+          <img src={ml1}/>
+          <img src={ml}/>
         </div>
       </section>
     </div>
