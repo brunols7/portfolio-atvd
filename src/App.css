@@ -6,6 +6,9 @@
   font-family:'Courier New', monospace;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .App {
   color: #ededed;
@@ -25,6 +28,9 @@
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+}
+.href {
+  transition: .3s;
 }
 .logo {
   position: relative;
@@ -47,6 +53,57 @@
 
 .navbar a:hover{
   color: #4C7097;
+}
+
+.navbar i:hover{
+  color: #4C7097;
+  transition: .2s;
+}
+
+.navbar i{
+  padding-left: 8px;
+  font-size: 20px;
+}
+nav li .bx-menu{
+  margin-top: 10px;
+}
+
+nav li{
+  display: inline-block;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+nav li a{
+  text-decoration: none;
+  display: inline-block;
+}
+li{
+  list-style: none;
+}
+
+.drop-menu{
+  padding-top:25px;
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(19, 58, 117, 0.3);
+  padding-bottom: 15px;
+  padding-right: 10px;
+}
+
+.drop-menu a{
+  display: block;
+  padding-top: 6px;
+  font-size: 18px;
+}
+
+.drop:hover .drop-menu{
+  display: block;
 }
 
 .home {

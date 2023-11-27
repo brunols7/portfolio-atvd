@@ -39,7 +39,7 @@ function App() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Estudante', 'Desenvolvedor Java', 'Dev Back-End'],
+      strings: ['Estudante', 'Desenvolvedor Java', 'Devesenvolvedor Back-End'],
       typeSpeed:130,
       backSpeed:200,
       startDelay:300,
@@ -61,6 +61,17 @@ function App() {
           <a href="#ling">Linguagens</a>
           <a href="#ti">TI</a>
           <a href="#tec">Tecnologias</a>
+    
+          <li className='drop'>
+          <i href="" class='bx bx-menu'></i>
+            <div class="drop-menu">
+              <a href="#tec">Automação</a>
+              <a href="#meta">MetaVerso</a>
+              <a href="#rv">Realidade Aumentada</a>
+              <a href="#ia">Inteligência Artificial</a>
+              <a href="#ml">Machine Learning</a>
+            </div>
+          </li>
         </nav>
       </header>
       <section className="home" id="home">
@@ -68,11 +79,10 @@ function App() {
           <h3>Olá, me chamo</h3>
           <h1>Bruno Leonardo</h1>
           <h3>e sou um  <span ref={el} /></h3>
-          <p>Sou um desenvolvedor de programação que está sempre em busca de conhecimento.</p>
+          <p>Sou um desenvolvedor que está sempre em busca de conhecimento.</p>
           <div className="home-sci">
             <a href="https://github.com/brunols7" target="_blank"><i class='bx bxl-github'></i></a>
             <a href="https://www.linkedin.com/in/brunols7/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
-
           </div>
         </div>
       </section>
@@ -82,14 +92,15 @@ function App() {
         </div>
         <div className="about-text">
           <h2>About <span>Me</span></h2>
-          <h4>Back-End Developer!</h4>
-          <p>I'm a self-taught programming developer, continuously seeking to learn. With my proactive nature, I'm always looking for innovative solutions and tackling challenges head-on. My communication skills allow me to collaborate effectively in a team, turning ideas into functional code.</p>
+          <h4>Back-End Developer</h4>
+          <p>Sou um desenvolvedor de programação autodidata, buscando aprender continuamente. Com minha proatividade, estou sempre em busca de soluções inovadoras e enfrentando desafios de frente. Minhas habilidades de comunicação me permitem colaborar de forma eficaz em equipe, transformando ideias em códigos funcionais.</p>
           <ul>
             <h3>Hard Skills:</h3>
-            <li>Java</li>
-            <li>Spring</li>
-            <li>SQL</li>
-            <li>Python</li>
+            <li>▸ Java</li>
+            <li>▸ Spring</li>
+            <li>▸ React</li>
+            <li>▸ SQL</li>
+            <li>▸ Python</li>
           </ul>
         </div>
       </section>
