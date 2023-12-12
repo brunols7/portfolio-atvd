@@ -18,7 +18,7 @@ Contém 12 "páginas" em scroll. Cada página é um pequeno portfolio e explica�
 
 ---
 
-### :hammer_and_wrench: Languages and Tools:
+### 🛠 Languages and Tools:
 
 <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" title="Git" alt="Git" width="65" height="30"/>&nbsp;
 <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" title="React" alt="React" width="85" height="30"/>&nbsp;
